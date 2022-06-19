@@ -1,4 +1,4 @@
-import { Gpgpu, KernelContext, kernelEntry, kernelFunction, Types } from 'gpgpu/dist/binding';
+import { Gpgpu, KernelContext, kernelEntry, kernelFunction, Types } from 'node-gpgpu';
 import { createCanvas } from 'canvas';
 import { writeFileSync } from 'fs';
 import { Camera, Color, Material, Scene, Sphere, TNodes, Triangle, Vector3 } from './Scene';
