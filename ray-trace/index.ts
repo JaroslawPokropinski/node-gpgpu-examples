@@ -25,7 +25,7 @@ async function main() {
     { a: { x: -4.0, y: 0, z: 2 }, b: { x: 4, y: 0, z: 2 }, c: { x: 0, y: 0, z: -4 } },
   );
 
-  const render = await renderScene(scene, 1000);
+  const render = await renderScene(scene, parseInt(process.argv[2]));
   saveToFile(render, 'image.png', scene.width, scene.height);
 }
 
