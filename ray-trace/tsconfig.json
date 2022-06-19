@@ -1,0 +1,12 @@
+{
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "target": "ES6",
+    "experimentalDecorators": true,
+    "noImplicitAny": false
+  }
+}
